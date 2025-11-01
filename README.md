@@ -6,3 +6,10 @@ source ~/.bashrc
 
 sudo mkdir -p /opt/android-sdk
 cd /opt/android-sdk
+
+
+
+sudo wget -q https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+sudo unzip -q commandlinetools-linux-*.zip
+sudo mkdir -p cmdline-tools
+sudo mv cmdline-tools cmdline-tools/latest
